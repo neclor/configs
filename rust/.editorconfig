@@ -8,9 +8,6 @@ insert_final_newline = true
 
 [*.md]
 trim_trailing_whitespace = false
-indent_style = tab
-indent_size = 4
-tab_width = 4
 
 [*.toml]
 indent_style = space
