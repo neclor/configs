@@ -14,15 +14,6 @@
     <AnalysisMode>AllEnabledByDefault</AnalysisMode>
 
     <RootNamespace></RootNamespace>
-
-    <Version>1.0.0</Version>
-    <AssemblyVersion>1.0.0</AssemblyVersion>
-    <FileVersion>1.0.0</FileVersion>
-    <Company></Company>
-    <Authors></Authors>
-    <Product></Product>
-    <Description></Description>
-    <Copyright></Copyright>
   </PropertyGroup>
 
 </Project>
