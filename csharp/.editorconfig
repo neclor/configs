@@ -20,6 +20,7 @@ indent_style = tab
 tab_width = 4
 
 #### .NET Code Actions ####
+
 dotnet_hide_advanced_members = false
 dotnet_search_reference_assemblies = true
 dotnet_property_generation_behavior = prefer_throwing_properties
@@ -27,7 +28,7 @@ dotnet_member_insertion_location = with_other_members_of_the_same_kind
 
 dotnet_prefer_system_hash_code = true:warning # ?
 dotnet_style_operator_placement_when_wrapping = beginning_of_line # ?
-csharp_style_prefer_simple_property_accessors = true # ?
+csharp_style_prefer_simple_property_accessors = true:suggestion # ?
 
 #### Code-style rules ####
 
