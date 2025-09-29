@@ -25,6 +25,7 @@ indent_style = tab
 tab_width = 4
 
 #### .NET Code Actions ####
+
 dotnet_hide_advanced_members = false
 dotnet_search_reference_assemblies = true
 dotnet_property_generation_behavior = prefer_throwing_properties
@@ -32,7 +33,7 @@ dotnet_member_insertion_location = with_other_members_of_the_same_kind
 
 dotnet_prefer_system_hash_code = true:warning # ?
 dotnet_style_operator_placement_when_wrapping = beginning_of_line # ?
-csharp_style_prefer_simple_property_accessors = true # ?
+csharp_style_prefer_simple_property_accessors = true:suggestion # ?
 
 #### Code-style rules ####
 
@@ -169,7 +170,7 @@ csharp_preserve_single_line_statements = true
 
 csharp_style_prefer_index_operator = true:suggestion # IDE0056 Use index operator
 csharp_style_prefer_range_operator = true:suggestion # IDE0057 Use range operator
-csharp_style_unused_value_expression_statement_preference = discard_variable:suggestion # IDE0058 Remove unused expression value
+csharp_style_unused_value_expression_statement_preference = discard_variable:silent # IDE0058 Remove unused expression value
 csharp_style_unused_value_assignment_preference = discard_variable:suggestion # IDE0059 Remove unnecessary value assignment
 dotnet_code_quality_unused_parameters = all:warning # IDE0060 Remove unused parameter
 csharp_style_expression_bodied_local_functions = when_on_single_line:suggestion # IDE0061 Use expression body for local functions
@@ -194,7 +195,9 @@ dotnet_diagnostic.IDE0076.severity = warning # Remove invalid global SuppressMes
 dotnet_diagnostic.IDE0077.severity = warning # Avoid legacy format target in global SuppressMessageAttribute
 
 csharp_style_prefer_pattern_matching = true:suggestion # IDE0078 Use pattern matching
-dotnet_remove_unnecessary_suppression_exclusions = none:warning # IDE0079 Remove unnecessary suppression
+
+dotnet_diagnostic.IDE0079.severity = silent # Remove unnecessary suppression
+dotnet_remove_unnecessary_suppression_exclusions = none # IDE0079 Remove unnecessary suppression
 
 dotnet_diagnostic.IDE0080.severity = suggestion # Remove unnecessary suppression operator
 dotnet_diagnostic.IDE0082.severity = warning # Convert typeof to nameof
