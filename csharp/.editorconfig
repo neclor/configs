@@ -14,17 +14,22 @@ indent_size = 2
 indent_style = space
 tab_width = 2
 
+[*.{html,js,ts}]
+indent_size = 4
+indent_style = space
+tab_width = 4
+
+[*.{css,scss}]
+indent_size = 2
+indent_style = space
+tab_width = 2
+
 [*.{xml,sln,slnx,csproj}]
 indent_size = 2
 indent_style = space
 tab_width = 2
 
-[*.{cshtml,html,css,scss,js,ts}]
-indent_size = 2
-indent_style = space
-tab_width = 2
-
-[*.{cs,razor}]
+[*.{cs,razor,cshtml}]
 indent_size = 4
 indent_style = tab
 tab_width = 4
