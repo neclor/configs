@@ -1,0 +1,18 @@
+[Unit]
+Description=Limit Xray traffic using cgroup v2 and tc
+After=network-online.target
+Wants=network-online.target
+Requires=xray.service
+
+[Service]
+Type=oneshot
+ExecStart=/opt/xray/xray-cgroup-limit.sh
+
+RemainAfterExit=yes
+NoNewPrivileges=yes
+PrivateTmp=yes
+ProtectSystem=full
+ProtectHome=yes
+
+[Install]
+WantedBy=multi-user.target
