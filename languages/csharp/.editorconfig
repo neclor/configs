@@ -176,7 +176,7 @@ csharp_space_between_square_brackets = false
 
 ## Wrap options ##
 csharp_preserve_single_line_blocks = true
-csharp_preserve_single_line_statements = false
+csharp_preserve_single_line_statements = true
 
 csharp_style_prefer_index_operator = true:suggestion # IDE0056 Use index operator
 csharp_style_prefer_range_operator = true:suggestion # IDE0057 Use range operator
