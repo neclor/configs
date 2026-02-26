@@ -80,8 +80,8 @@ csharp_style_expression_bodied_properties = when_on_single_line:suggestion # IDE
 csharp_style_expression_bodied_indexers = when_on_single_line:suggestion # IDE0026 Use expression body for indexers
 csharp_style_expression_bodied_accessors = when_on_single_line:suggestion # IDE0027 Use expression body for accessors
 
-# IDE0028 Use collection initializers
-dotnet_style_collection_initializer = true:suggestion
+
+dotnet_style_collection_initializer = true:suggestion # IDE0028 Use collection initializers
 dotnet_style_prefer_collection_expression = when_types_loosely_match:suggestion # IDE0300, IDE0301, IDE0302, IDE0303, IDE0304, IDE0305, IDE0306 Use collection expression
 
 dotnet_style_coalesce_expression = true:suggestion # IDE0029, IDE0030, IDE0270 Null check can be simplified
