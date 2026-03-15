@@ -1,0 +1,15 @@
+[Unit]
+Description=Netris Leaderboard API
+After=network.target
+
+[Service]
+User=neclor
+WorkingDirectory=/srv/www/netris.neclor.com
+ExecStart=/usr/bin/dotnet /home/neclor/servers/netris/NetrisServer.dll
+Environment=ASPNETCORE_ENVIRONMENT=Production
+Environment=ASPNETCORE_URLS=http://localhost:5220
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
