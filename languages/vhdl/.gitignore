@@ -1,0 +1,49 @@
+# Quartus Prime build databases
+db/
+incremental_db/
+qdb/
+
+# Compilation reports
+*.rpt
+*.summary
+*.qws
+
+# Generated programming files
+*.sof
+*.pof
+*.jam
+*.jbc
+*.rbf
+*.svf
+
+# Simulation output
+simulation/
+*.vcd
+*.wlf
+*.log
+
+# Quartus generated netlists
+*.vo
+*.vho
+*.sdo
+
+# Backup and temporary files
+*.bak
+*.tmp
+*.swp
+
+# Quartus cache / auto generated
+*.ddb
+*.cmp
+*.qmsg
+*.smsg
+
+# ModelSim / Questa
+modelsim.ini
+transcript
+vsim.wlf
+work/
+
+# OS files
+.DS_Store
+Thumbs.db
