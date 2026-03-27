@@ -1,0 +1,15 @@
+[Unit]
+Description=Wow Server Manager
+After=network.target
+
+[Service]
+User=neclor
+WorkingDirectory=/home/neclor/servers/wow/wow-server-manager
+ExecStart=/usr/bin/dotnet /home/neclor/servers/wow/wow-server-manager/WowServer.dll
+Environment=ASPNETCORE_ENVIRONMENT=Production
+Environment=ASPNETCORE_URLS=http://localhost:5221
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
