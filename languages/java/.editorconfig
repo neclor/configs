@@ -10,16 +10,15 @@ insert_final_newline = true
 trim_trailing_whitespace = false
 
 [*.{iml,xml,gradle,properties}]
-indent_size = 2
 indent_style = space
-tab_width = 2
+indent_size = 2
 
 [*.dcl]
 ij_declarative_keep_indents_on_empty_lines = false
 
 [*.java]
-indent_size = 4
 indent_style = tab
+indent_size = 4
 tab_width = 4
 
 ij_formatter_off_tag = @formatter:off

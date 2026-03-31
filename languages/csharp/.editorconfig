@@ -10,28 +10,24 @@ insert_final_newline = true
 trim_trailing_whitespace = false
 
 [*.json]
-indent_size = 2
 indent_style = space
-tab_width = 2
+indent_size = 2
 
 [*.{html,js,ts}]
-indent_size = 4
 indent_style = space
-tab_width = 4
+indent_size = 4
 
 [*.{css,scss}]
-indent_size = 2
 indent_style = space
-tab_width = 2
+indent_size = 2
 
 [*.{xml,sln,slnx,csproj}]
-indent_size = 2
 indent_style = space
-tab_width = 2
+indent_size = 2
 
 [*.{cs,razor,cshtml}]
-indent_size = 4
 indent_style = tab
+indent_size = 4
 tab_width = 4
 
 #### .NET Code Actions ####

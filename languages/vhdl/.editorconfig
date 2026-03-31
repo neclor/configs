@@ -10,6 +10,6 @@ insert_final_newline = true
 trim_trailing_whitespace = false
 
 [*.{vhd,vhdl}]
-indent_size = 4
 indent_style = tab
+indent_size = 4
 tab_width = 4
