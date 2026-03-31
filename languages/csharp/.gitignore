@@ -413,6 +413,7 @@ FodyWeavers.xsd
 !.vscode/launch.json
 !.vscode/extensions.json
 !.vscode/*.code-snippets
+*.code-workspace
 
 # Local History for Visual Studio Code
 .history/
@@ -426,3 +427,9 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# System/tool-specific ignores
+.directory
+.DS_Store
+
+*.blend1

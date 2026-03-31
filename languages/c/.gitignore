@@ -50,3 +50,21 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# VS
+.vs/
+
+# VS Code files for those working on multiple tools
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+*.code-workspace
+
+# System/tool-specific ignores
+.directory
+.DS_Store
+*~
+*.blend1
