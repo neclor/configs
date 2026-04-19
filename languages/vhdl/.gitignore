@@ -62,3 +62,6 @@ Thumbs.db
 
 *~
 *.blend1
+
+# AI
+.claude/
