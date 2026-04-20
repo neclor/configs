@@ -2,7 +2,7 @@ server {
 	listen 443 ssl http2 default_server;
 	listen [::]:443 ssl http2 default_server;
 
-	server_name *.neclor.com;
+	server_name _;
 
 	include snippets/ssl-neclor.com.conf;
 
