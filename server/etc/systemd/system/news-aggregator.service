@@ -8,8 +8,8 @@ Type=oneshot
 RemainAfterExit=yes
 User=neclor
 WorkingDirectory=/home/neclor/servers/news-aggregator
-ExecStart=docker-compose up -d --build
-ExecStop=docker-compose down
+ExecStart=docker compose up -d --build
+ExecStop=docker compose down
 
 [Install]
 WantedBy=multi-user.target
