@@ -12,3 +12,4 @@ trim_trailing_whitespace = false
 [*.R]
 indent_style = space
 indent_size = 4
+tab_width = 4

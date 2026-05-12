@@ -12,18 +12,27 @@ trim_trailing_whitespace = false
 [*.json]
 indent_style = space
 indent_size = 2
+tab_width = 2
 
-[*.{html,js,ts}]
+[*.{xml,yaml,sln,slnx,csproj}]
 indent_style = space
-indent_size = 4
+indent_size = 2
+tab_width = 2
+
+[*.{htm,html}]
+indent_style = space
+indent_size = 2
+tab_width = 2
 
 [*.{css,scss}]
 indent_style = space
 indent_size = 2
+tab_width = 2
 
-[*.{xml,sln,slnx,csproj}]
+[*.{js,ts}]
 indent_style = space
-indent_size = 2
+indent_size = 4
+tab_width = 4
 
 [*.{cs,razor,cshtml}]
 indent_style = tab
@@ -75,7 +84,6 @@ csharp_style_expression_bodied_operators = when_on_single_line:suggestion # IDE0
 csharp_style_expression_bodied_properties = when_on_single_line:suggestion # IDE0025 Use expression body for properties
 csharp_style_expression_bodied_indexers = when_on_single_line:suggestion # IDE0026 Use expression body for indexers
 csharp_style_expression_bodied_accessors = when_on_single_line:suggestion # IDE0027 Use expression body for accessors
-
 
 dotnet_style_collection_initializer = true:suggestion # IDE0028 Use collection initializers
 dotnet_style_prefer_collection_expression = when_types_loosely_match:suggestion # IDE0300, IDE0301, IDE0302, IDE0303, IDE0304, IDE0305, IDE0306 Use collection expression

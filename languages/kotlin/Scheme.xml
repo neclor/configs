@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <profiles version="21">
-	<profile kind="CodeFormatterProfile" name="EditorConfig" version="21">
+	<profile kind="CodeFormatterProfile" name="MyScheme" version="21">
 		<setting id="org.eclipse.jdt.core.formatter.tabulation.char" value="mixed"/>
 		<setting id="org.eclipse.jdt.core.formatter.use_tabs_only_for_leading_indentations" value="true"/>
 		<setting id="org.eclipse.jdt.core.formatter.indentation.size" value="4"/>

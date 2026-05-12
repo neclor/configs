@@ -12,6 +12,7 @@ trim_trailing_whitespace = false
 [*.toml]
 indent_style = space
 indent_size = 2
+tab_width = 2
 
 [*.rs]
 indent_style = tab
