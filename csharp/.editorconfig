@@ -14,7 +14,7 @@ indent_style = space
 indent_size = 2
 tab_width = 2
 
-[*.{xml,yaml,sln,slnx,csproj}]
+[*.{xml,yml,yaml,sln,slnx,csproj}]
 indent_style = space
 indent_size = 2
 tab_width = 2
