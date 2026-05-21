@@ -1,0 +1,43 @@
+# Ansible default config directory on the controller
+.ansible/
+
+# Ansible lint cache
+.ansible-lint
+
+# Retry files generated for failed playbook runs
+*.retry
+
+# Vault password file — never commit
+.vault_pass
+
+# Fact cache
+.cache/
+
+# Logs
+logs/
+
+# Python/Ansible temporary files
+*.pyc
+*.pyo
+__pycache__/
+.python-version
+
+# SSH keys
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+.directory
+
+# Windows
+Thumbs.db
