@@ -316,7 +316,6 @@ TSWLatexianTemp*
 .directory
 .DS_Store
 *~
-*.blend1
 
 # AI
 .claude/
