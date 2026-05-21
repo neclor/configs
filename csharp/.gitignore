@@ -425,6 +425,7 @@ FodyWeavers.xsd
 # System/tool-specific ignores
 .directory
 .DS_Store
+*~
 
 # AI
 .claude/
