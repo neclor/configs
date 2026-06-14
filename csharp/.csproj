@@ -9,11 +9,12 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 
-	  <EnableNETAnalyzers>true</EnableNETAnalyzers>
-	  <AnalysisLevel>preview</AnalysisLevel>
-	  <AnalysisMode>All</AnalysisMode>
-	  <AnalysisModeStyle>Default</AnalysisModeStyle>
-	  <CodeAnalysisTreatWarningsAsErrors>false</CodeAnalysisTreatWarningsAsErrors>
+    <AnalysisLevel>preview</AnalysisLevel>
+    <AnalysisMode>All</AnalysisMode>
+    <AnalysisModeStyle>Default</AnalysisModeStyle> <!-- AnalysisModeStyle=Default enables IDE rules configuration in .editorconfig -->
+    <CodeAnalysisTreatWarningsAsErrors>false</CodeAnalysisTreatWarningsAsErrors>
+    <EnableNETAnalyzers>true</EnableNETAnalyzers>
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
 
     <RootNamespace></RootNamespace>
   </PropertyGroup>
