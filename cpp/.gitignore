@@ -392,10 +392,14 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 
+# Editor files
+.idea/
+*.swp
+*.swo
+
 # System/tool-specific ignores
-.directory
 .DS_Store
-*~
+.directory
 
 # AI
 .claude/

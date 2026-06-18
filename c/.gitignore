@@ -51,16 +51,21 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
-# VS
-.vs/
-
 # VS Code
 .vscode/
 
-# System/tool-specific ignores
-.directory
-.DS_Store
+# VS
+.vs/
+
+# Editor files
+.idea/
+*.swp
+*.swo
 *~
+
+# System/tool-specific ignores
+.DS_Store
+.directory
 
 # AI
 .claude/

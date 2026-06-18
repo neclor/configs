@@ -44,17 +44,16 @@ transcript
 vsim.wlf
 work/
 
-# OS files
-.DS_Store
-Thumbs.db
-
-# VS Code
+# Editor files
 .vscode/
+.idea/
+*.swo
+*~
 
 # System/tool-specific ignores
-.directory
 .DS_Store
-*~
+.directory
+Thumbs.db
 
 # AI
 .claude/

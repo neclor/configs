@@ -162,10 +162,15 @@ cython_debug/
 # VS Code
 .vscode/
 
-# System/tool-specific ignores
-.directory
-.DS_Store
+# Editor files
+.idea/
+*.swp
+*.swo
 *~
+
+# System/tool-specific ignores
+.DS_Store
+.directory
 
 # AI
 .claude/

@@ -1,10 +1,13 @@
-# VS Code
+# Editor files
 .vscode/
+.idea/
+*.swp
+*.swo
+*~
 
 # System/tool-specific ignores
-.directory
 .DS_Store
-*~
+.directory
 
 # AI
 .claude/
