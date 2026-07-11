@@ -427,7 +427,7 @@ resharper_csharp_blank_lines_after_case = 0
 ### Braces Layout (https://www.jetbrains.com/help/rider/EditorConfig_CSHARP_BracesPageSchema.html)
 # resharper_csharp_type_declaration_braces # resharper_csharp_brace_style
 
-resharper_csharp_indent_inside_namespace = false
+resharper_csharp_indent_inside_namespace = true
 
 # resharper_csharp_invocable_declaration_braces # resharper_csharp_brace_style
 # resharper_csharp_anonymous_method_declaration_braces
@@ -513,7 +513,7 @@ resharper_csharp_local_function_body = expression_body # csharp_style_expression
 resharper_csharp_constructor_or_destructor_body = expression_body # csharp_style_expression_bodied_constructors
 resharper_csharp_accessor_owner_body = expression_body # csharp_style_expression_bodied_properties csharp_style_expression_bodied_indexers csharp_style_expression_bodied_accessors
 
-resharper_csharp_namespace_body = file_scoped
+resharper_csharp_namespace_body = file_scoped # csharp_style_namespace_declarations
 
 resharper_csharp_use_heuristics_for_body_style = false
 
@@ -915,7 +915,7 @@ resharper_csharp_space_within_slice_pattern = true
 #### Roslyn
 
 #### Resharper
-resharper_check_namespace_highlighting = silent
+resharper_check_namespace_highlighting = silent # dotnet_style_namespace_match_folder
 resharper_local_function_can_be_made_static_highlighting = warning
 resharper_member_can_be_private_global_highlighting = silent
 resharper_member_can_be_protected_global_highlighting = silent
