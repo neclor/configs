@@ -269,10 +269,10 @@ dotnet_naming_symbols.constants.applicable_accessibilities = *
 dotnet_naming_symbols.constants.required_modifiers = const
 
 dotnet_naming_symbols.non_private_fields.applicable_kinds = field
-dotnet_naming_symbols.non_private_fields.applicable_accessibilities = public, internal, protected, protected_internal, private_protected
+dotnet_naming_symbols.non_private_fields.applicable_accessibilities = public, protected, protected_internal
 
 dotnet_naming_symbols.private_fields.applicable_kinds = field
-dotnet_naming_symbols.private_fields.applicable_accessibilities = private
+dotnet_naming_symbols.private_fields.applicable_accessibilities = private, internal, private_protected
 
 dotnet_naming_symbols.non_field_members.applicable_kinds = property, event, method, local_function
 dotnet_naming_symbols.non_field_members.applicable_accessibilities = *
@@ -678,7 +678,7 @@ resharper_csharp_wrap_before_extends_colon = true
 resharper_csharp_wrap_extends_list_style = chop_if_long
 
 ## Arrangement of declaration blocks
-# resharper_csharp_keep_existing_declaration_block_arrangement # resharper_csharp_keep_existing_arrangement
+resharper_csharp_keep_existing_declaration_block_arrangement = true # resharper_csharp_keep_existing_arrangement
 # resharper_csharp_place_abstract_accessorholder_on_single_line # resharper_csharp_place_simple_blocks_on_single_line resharper_csharp_place_simple_declaration_blocks_on_single_line
 # resharper_csharp_place_simple_accessorholder_on_single_line
 resharper_csharp_place_accessor_with_attrs_holder_on_single_line = false
