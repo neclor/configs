@@ -5,16 +5,22 @@ charset = utf-8
 end_of_line = lf
 trim_trailing_whitespace = true
 insert_final_newline = true
+quote_type = double
 
 [*.md]
 trim_trailing_whitespace = false
+
+[*.{yml,yaml,toml,xml,json}]
+indent_style = space
+indent_size = 2
+tab_width = 2
 
 [*.{gd,gdshader}]
 indent_style = tab
 indent_size = 4
 tab_width = 4
 
-[*.{json,toml,yml,yaml,xml,csproj,sln,slnx}]
+[*.{xaml,csproj,slnx}]
 indent_style = space
 indent_size = 2
 tab_width = 2

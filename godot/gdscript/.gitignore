@@ -30,6 +30,9 @@ export_credentials.cfg
 data_*/
 mono_crash.*.json
 
+# Tool-specific ignores
+*.blend1
+
 # Editor files
 .vscode/
 .idea/
@@ -37,10 +40,9 @@ mono_crash.*.json
 *.swo
 *~
 
-# System/tool-specific ignores
+# OS files
 .DS_Store
 .directory
-*.blend1
 
 # AI
 .claude/

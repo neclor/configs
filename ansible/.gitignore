@@ -1,3 +1,7 @@
+# OS files
+.DS_Store
+.directory
+
 # Ansible default config directory on the controller
 .ansible/
 
@@ -35,9 +39,12 @@ id_ed25519
 *.swo
 *~
 
+# Windows
+Thumbs.db
+
 # OS files
 .DS_Store
 .directory
 
-# Windows
-Thumbs.db
+# AI
+.claude/

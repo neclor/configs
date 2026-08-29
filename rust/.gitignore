@@ -22,7 +22,7 @@ Cargo.lock
 *.swo
 *~
 
-# System/tool-specific ignores
+# OS files
 .DS_Store
 .directory
 

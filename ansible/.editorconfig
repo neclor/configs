@@ -5,16 +5,37 @@ charset = utf-8
 end_of_line = lf
 trim_trailing_whitespace = true
 insert_final_newline = true
+quote_type = double
 
 [*.md]
 trim_trailing_whitespace = false
 
-[*.{yml,yaml,sh}]
+[*.{yml,yaml,toml,xml,json}]
 indent_style = space
 indent_size = 2
 tab_width = 2
 
-[*.{cnf,conf,cfg,ini,j2}]
+[*.{yml.j2,yaml.j2}]
+indent_style = space
+indent_size = 2
+tab_width = 2
+
+[*.{cnf,conf,cfg,ini}]
 indent_style = space
 indent_size = 4
 tab_width = 4
+
+[*.{cnf.j2,conf.j2,cfg.j2,ini.j2}]
+indent_style = space
+indent_size = 4
+tab_width = 4
+
+[*.sh]
+indent_style = space
+indent_size = 2
+tab_width = 2
+
+[*.sh.j2]
+indent_style = space
+indent_size = 2
+tab_width = 2

@@ -426,8 +426,9 @@ FodyWeavers.xsd
 .idea/
 *.swp
 *.swo
+*~
 
-# System/tool-specific ignores
+# OS files
 .DS_Store
 .directory
 

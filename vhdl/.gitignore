@@ -50,10 +50,12 @@ work/
 *.swo
 *~
 
-# System/tool-specific ignores
+# Windows
+Thumbs.db
+
+# OS files
 .DS_Store
 .directory
-Thumbs.db
 
 # AI
 .claude/
