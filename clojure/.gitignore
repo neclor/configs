@@ -1,0 +1,19 @@
+# Clojure / Calva / nREPL
+.cpcache/
+.nrepl-port
+.lsp/
+.clj-kondo/.cache/
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+.directory
+
+# AI
+.claude/
